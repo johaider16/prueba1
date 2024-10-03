@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #contenedor{
+            background-color: aquamarine;
+            margin: auto;
+            width: 250px;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+
+    </style>
+
+
+<script>
+
+    var Nombre = prompt("Digita tu nombre: ");
+
+        while(!isNaN (Nombre)){
+            Nombre=prompt("Introduce nombre valido: ")
+        }
+
+    var Edad = prompt("Digita tu edad: ");
+
+        while (Edad <= 0 || Edad >= 105 || isNaN(Edad)){
+           Edad= prompt("Ingrese una edad valida: ");
+        }
+    var cargo = prompt("Digite su cargo: ");
+        while(!isNaN (cargo)){
+                cargo=prompt("Introduce nombre valido: ")
+        }
+
+
+
+</script>
+
+</head>
+<body>
+    <div id="contenedor">
+
+    <p>Nombre: <script>document.write( Nombre  ) </script></p>
+    <p>Edad: <script>document.write( Edad ) </script></p>
+    <p>Ocupacion: <script>document.write(cargo) </script></p>
+    </div>
+</body>
+</html>
+

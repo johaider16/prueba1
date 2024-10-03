@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Usando Arrays</title>
+<link rel="stylesheet" href="css/micss.css">
+<script>
+  var articuclos = ["Zapatillas", "Pantalones", "Camiseta", "Calsetines"];
+
+ 
+	
+</script>
+</head>
+
+<body>
+<div class="contenedor">
+  <div class="header">
+    <p class="logo">JavaScript Arrays <i class="mm">Píldoras Informáticas
+     </p>
+  </div>
+  <div class="contenido">
+    <div class="principal">
+      <h1>Manejando Arrays</h1>
+      <script>
+        
+        
+        document.write("<p> El articulo agregado es ");
+        articuclos.push ("Balon");
+        document.write((articuclos[4]) + "</p>");
+        /*document.write("<p> El articulo agregado es ");           Agregar = push 
+        articuclos.push (prompt("Agregar producto"));               Eliminar = pop = ultimo // shift = Primero
+        document.write (articuclos[5]);                             Leer el array= length
+        document.write ("</P>")*/
+
+        document.write("<p>" + articuclos[0] + "</P>");
+        document.write("<p>" + articuclos[1] + "</P>");
+        document.write("<p>" + articuclos[2] + "</P>");
+        document.write("<p>" + articuclos[3] + "</P>");
+        document.write("<p>" + articuclos[4] + "</P>");
+        
+      articuclos.shift(articuclos)
+
+      document.write("<p>" + articuclos[0] + "</P>");
+        document.write("<p>" + articuclos[1] + "</P>");
+        document.write("<p>" + articuclos[2] + "</P>");
+        document.write("<p>" + articuclos[3] + "</P>");
+        document.write("<p>" + articuclos[4] + "</P>");
+		
+	  </script>
+     </div>
+  </div>
+  
+</div>
+</body>
+</html>

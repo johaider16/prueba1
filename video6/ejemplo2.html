@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Jugando con variables</title>
+<link rel="stylesheet" href="css/micss2.css">
+
+</head>
+
+<body>
+<div class="contenedor">
+<div class="header">
+	<p class="logo">Curso JavaScript Píldoras Informáticas</p>
+</div>
+<div class="contenido">
+	<div class="principal">
+<h1>Jugando con las variables</h1>
+
+
+<script>
+/*
+	var nombre = "Johaider";
+	var apellido = " El mejor";
+
+	document.write("<p>");
+	document.write(nombre + "" + apellido);			//incluir codigo HTMLL al script
+	document.write("</p>");
+*/
+	var nombre = prompt("Cúal es tu nombre: ");			//promt para pedir digitar datos
+	var complemento= prompt("Digita una frase");
+	var edad = prompt("Pon la edad: ");
+	var quiteEdad = prompt ("Cuantos años se quiere quitar?  ");
+
+	edad -= quiteEdad
+
+	document.write("<p>");
+	document.write(nombre + " " + complemento + " y tienes " + edad);			//incluir codigo HTMLL al script
+	document.write("</p>");
+</script>
+
+</div>
+</div>
+
+</div>
+</body>
+</html>
